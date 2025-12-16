@@ -89,3 +89,19 @@ footer {
 .mybutton:hover {
   background-color: #441d1d; /* цвет при наведении */
 }
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;          /* размещаем элементы в ряд */
+  align-items: center;    /* выравниваем по центру по вертикали */
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;              /* расстояние между логотипом и текстом */
+}
+
+.logo {
+  height: 100px;          /* задаём высоту логотипа */
+  width:auto;            /* сохраняем пропорции */
+}
