@@ -94,14 +94,14 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  display: flex;          /* размещаем элементы в ряд */
-  align-items: center;    /* выравниваем по центру по вертикали */
+  display: flex;          
+  align-items: center;    
   gap: 15px;
   margin-left: auto;
-  margin-right: auto;              /* расстояние между логотипом и текстом */
+  margin-right: auto;              
 }
 
 .logo {
-  height: 100px;          /* задаём высоту логотипа */
-  width:auto;            /* сохраняем пропорции */
+  height: 100px;          
+  width:auto;            
 }

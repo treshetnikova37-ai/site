@@ -77,3 +77,33 @@
     text-align: center;
     padding: 15px;
   }
+
+  .payment-page {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.payment-card {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.but {
+   background: linear-gradient(135deg, #3a1c1c, #6b2e2e);
+  color: white;           
+  border: none;              
+  padding: 10px 20px;        
+  border-radius: 5px;        
+  cursor: pointer; 
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;          
+}
